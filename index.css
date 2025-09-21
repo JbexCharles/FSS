@@ -41,7 +41,7 @@
     .hero-content {
       position: absolute;
       z-index: 5;
-      left: 50%;
+      left: 35%;
       top: 50%;
       transform: translate(-50%,-50%);
       text-align:center;
@@ -137,6 +137,7 @@
       .hero .carousel-item img { height:60vh; }
       .hero h1 { font-size: 1.6rem; }
       .hero p.lead { font-size: .95rem; }
+      .hero-content { left: 0%;}
     }
 
     /* customized color */
